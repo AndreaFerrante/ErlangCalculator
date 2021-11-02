@@ -14,12 +14,12 @@ In this package I have developed a Python class that takes into reality differen
 
 One important parameter that we must consider while modelling call center staff is the <i>shrinkage</i>: it is a ratio to model all that could get an agent away from answering to customer contacts. Industry shrinkage is 30%.
 
-Long story short, here one example:
+Long story short, here one example with assumptions:
 
-- given the AHT (i.e. Average Handling Time or answering call duration), let's assume 250 seconds
-- given the TAT (i.e. Targeting Answering Time which is the time before a call is supposed to be answered), let's assume 20 seconds
-- given the incoming call prediction, for instance in one hour, let's assume 200 calls
-- given a target GoS to be achieved, let's assume 75%
+- given the <b>AHT</b> (i.e. Average Handling Time or answering call duration), let's assume 250 seconds
+- given the <b>TAT</b> (i.e. Targeting Answering Time which is the time before a call is supposed to be answered), let's assume 20 seconds
+- given the <b>incoming call prediction</b>, for instance in one hour, let's assume 200 calls
+- given a target <b>GoS</b>  to be achieved, let's assume 75%
 
 we have that the number of agents that are supposed to be present are <i>18 (25.7 given the insustry shrinkage).</i>
 Basically, as written in the Python code, one could stop the GoS and force the number of agents into the ErlangC formula that conctructs the GoS itself...
