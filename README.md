@@ -19,7 +19,11 @@ Long story short, here one example:
 - given the AHT (i.e. Average Handling Time or answering call duration), let's assume 250 seconds
 - given the TAT (i.e. Targeting Answering Time which is the time before a call is supposed to be answered), let's assume 20 seconds
 - given the incoming call prediction, for instance in one hour, let's assume 200 calls
-- given a target service level to be achieved, let's assume 75%
+- given a target GoS to be achieved, let's assume 75%
 
-we have that the number of agents that are supposed to be present are 18 (25.7 given the insustry shrinkage).
+we have that the number of agents that are supposed to be present are <i>18 (25.7 given the insustry shrinkage).</i>
+Basically, as written in the Python code, one could stop the GoS and force the number of agents into the ErlangC formula that conctructs the GoS itself...
 
+Different story is the <i>abandoned rate</i> which is the second parameter used in call centers to evaluate parformance: one could always get it fixed to assess the number of agents but, instead of focusing on the ErlangC equation, one should user the ErlangA equation.
+
+For the curious reader and coder, here the two 
