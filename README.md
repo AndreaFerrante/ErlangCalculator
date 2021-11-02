@@ -26,4 +26,14 @@ Basically, as written in the Python code, one could stop the GoS and force the n
 
 Different story is the <i>abandoned rate</i> which is the second parameter used in call centers to evaluate parformance: one could always get it fixed to assess the number of agents but, instead of focusing on the ErlangC equation, one should user the ErlangA equation.
 
-For the curious reader and coder, here the two 
+For the curious reader and coder, here the two references from which the package has taken mathematical sources:
+
+a. https://core.ac.uk/download/8987165.pdf
+b. https://iew3.technion.ac.il/serveng/References/MMNM_IAO.pdf
+
+(a) point gives detailed and clear ErlangC and GoS equations, (b) point addresses ErlangA equation to get the abandoned rate into account.
+Mischievous reader can have identical results for the Erlang Call Center staffing model out of here:
+
+I. https://www.callcentrehelper.com/tools/erlang-calculator/
+
+Enjoy coding and math ! 
