@@ -36,4 +36,4 @@ Mischievous reader can have identical results for the Erlang Call Center staffin
 
 I. https://www.callcentrehelper.com/tools/erlang-calculator/
 
-Enjoy coding (Python !) and math !
+Diligent and passionate coder and data scientist will be using Python I know ! 😄
