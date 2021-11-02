@@ -7,9 +7,9 @@ By having calls incoming flow one could assess how many agents are needed in ord
 
 In this package I have developed a Python class that takes into reality different equations that compete together in defining correctly <i>how many agent to be staffed</i> given the amount of the incoming calls; this formulas are:
 
-1. Grade of Service: is the probability of a call in a circuit group being blocked or delayed for more than a specified interval
-2. ErlangC: it is the equation to calculate delays or predict waiting times for callers (developed by Mr. Erlang !)
-3. ErlangB: it is the probability that a customer arriving in a system with servers will be rejected because all the servers are busy (developed by Mr. Erlang !)
-4. ErlangA: it is an extension to the ErlangC formula that takes into account the concept of <i>abandoned</i> (developed by Mr. Palm !)
+1. <b>Grade of Service</b>: is the probability of a call in a circuit group being blocked or delayed for more than a specified interval
+2. <b>ErlangC</b>: it is the equation to calculate delays or predict waiting times for callers
+3. <b>ErlangB</b>: it is the probability that a customer arriving in a system with servers will be rejected because all the servers are busy
+4. <b>ErlangA</b>: it is an extension to the ErlangC formula that takes into account the concept of <i>abandoned</i>
 
-One note: in order to get a correct ErlangA, one should be looking at the Gamma Function
+One important parameter that we must consider while modelling call center staff is the <i>shrinkage</i>: it is a ratio to model all that could get an agent away from answering to customer contacts. Industry shrinkage is 30%.
