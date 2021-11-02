@@ -28,7 +28,7 @@ Different story is the <i>abandoned rate</i> which is the second parameter used 
 
 For the curious reader and coder, here the two references from which the package has taken mathematical sources:
 
-a. https://core.ac.uk/download/8987165.pdf
+a. https://core.ac.uk/download/8987165.pdf \
 b. https://iew3.technion.ac.il/serveng/References/MMNM_IAO.pdf
 
 (a) point gives detailed and clear ErlangC and GoS equations, (b) point addresses ErlangA equation to get the abandoned rate into account.
