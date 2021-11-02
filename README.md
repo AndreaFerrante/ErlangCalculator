@@ -31,9 +31,9 @@ For the curious reader and coder, here the two references from which the package
 a. https://core.ac.uk/download/8987165.pdf \
 b. https://iew3.technion.ac.il/serveng/References/MMNM_IAO.pdf
 
-(a) point gives detailed and clear ErlangC and GoS equations, (b) point addresses ErlangA equation to get the abandoned rate into account.
+(a) point gives detailed and clear ErlangC and GoS equations, (b) point addresses ErlangA equation to get the abandoned rate into account: abandoned rate is nothing more than the relation between two probabilities (all Erlang stuff is a super funny probability model !) as shown at the very end of page 27.
 Mischievous reader can have identical results for the Erlang Call Center staffing model out of here:
 
 I. https://www.callcentrehelper.com/tools/erlang-calculator/
 
-Enjoy coding and math ! 
+Enjoy coding (Python !) and math !
