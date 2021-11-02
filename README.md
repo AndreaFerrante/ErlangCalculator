@@ -1,4 +1,4 @@
-This Python package is an <i>helping hand</i> to all data analyst and scientist that are trying to assess scientifically how many call center agents to staff ! 🔥
+This Python package is an <i>helping hand</i> to all data analyst and scientist that are trying to determine scientifically how many call center agents to staff ! 🔥
 
 The main teory under the hood has been developed in by Mr. Agner Krarup Erlang - who, back in the 1916, developed the concept of <i>Erlang Unit Measure</i> - and by Mr. Conny Palm - back in the 1946.
 
@@ -13,3 +13,9 @@ In this package I have developed a Python class that takes into reality differen
 4. <b>ErlangA</b>: it is an extension to the ErlangC formula that takes into account the concept of <i>abandoned</i>
 
 One important parameter that we must consider while modelling call center staff is the <i>shrinkage</i>: it is a ratio to model all that could get an agent away from answering to customer contacts. Industry shrinkage is 30%.
+
+Logn story short, here one example:
+
+- given the AHT (i.e. Average Handling Time or answering call duration), assume 250 seconds
+- given the TAT (i.e. Targeting Answering Time which is the service level time before a call is supposed to be answered), assume 20 seconds
+- given 
