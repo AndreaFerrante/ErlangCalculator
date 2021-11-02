@@ -7,7 +7,7 @@ By having calls incoming flow one could assess how many agents are needed in ord
 
 In this package I have developed a Python class that takes into reality different equations that compete together in defining correctly <i>how many agent to be staffed</i> given the amount of the incoming calls; this formulas are:
 
-1. <b>Grade of Service</b>: is the probability of a call in a circuit group being blocked or delayed for more than a specified interval
+1. <b>Grade of Service (GoS)</b>: is the probability of a call in a circuit group being blocked or delayed for more than a specified interval
 2. <b>ErlangC</b>: it is the equation to calculate delays or predict waiting times for callers
 3. <b>ErlangB</b>: it is the probability that a customer arriving in a system with servers will be rejected because all the servers are busy
 4. <b>ErlangA</b>: it is an extension to the ErlangC formula that takes into account the concept of <i>abandoned</i>
@@ -16,6 +16,10 @@ One important parameter that we must consider while modelling call center staff 
 
 Long story short, here one example:
 
-- given the AHT (i.e. Average Handling Time or answering call duration), assume 250 seconds
-- given the TAT (i.e. Targeting Answering Time which is the time before a call is supposed to be answered), assume 20 seconds
-- given the incoming call prediction arriving in, fo instance, one hour
+- given the AHT (i.e. Average Handling Time or answering call duration), let's assume 250 seconds
+- given the TAT (i.e. Targeting Answering Time which is the time before a call is supposed to be answered), let's assume 20 seconds
+- given the incoming call prediction, for instance in one hour, let's assume 200 calls
+- given a target service level to be achieved, let's assume 75%
+
+we have that the number of agents that are supposed to be present are 18 (25.7 given the insustry shrinkage).
+
