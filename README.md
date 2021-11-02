@@ -14,8 +14,8 @@ In this package I have developed a Python class that takes into reality differen
 
 One important parameter that we must consider while modelling call center staff is the <i>shrinkage</i>: it is a ratio to model all that could get an agent away from answering to customer contacts. Industry shrinkage is 30%.
 
-Logn story short, here one example:
+Long story short, here one example:
 
 - given the AHT (i.e. Average Handling Time or answering call duration), assume 250 seconds
-- given the TAT (i.e. Targeting Answering Time which is the service level time before a call is supposed to be answered), assume 20 seconds
-- given 
+- given the TAT (i.e. Targeting Answering Time which is the time before a call is supposed to be answered), assume 20 seconds
+- given the incoming call prediction arriving in, fo instance, one hour
