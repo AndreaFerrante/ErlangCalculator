@@ -6,13 +6,14 @@ er      = Erlang()
 ##################
 
 
-n       = 23
-lambda_ = 170
-AHT     = 400
-t       = 22
-ap      = 65
+n       = 23   # inforced of the number of agents...
+lambda_ = 170  # calls per hour...
+AHT     = 400  # duration in seconds of the answer call...
+t       = 22   # targeting answering time...
+ap      = 65   # average patience of clients...
 
-erlang  = lambda_ * (AHT / 3600)
+
+erlang  = lambda_ * (AHT / 3600) # this is the erlang as unit measure...
 teta    = 1 / (ap / 3600)
 mu      = 1 / (AHT / 3600)
 ro      = lambda_  / (n * mu)
@@ -25,5 +26,3 @@ PW      = ( er.GammaFunction(x, y, 100) * er.ErlangB(erlang, n) ) / (1 + (er.Gam
 print('Service Level ', er.GradeOfService(erlang, n, t, AHT))
 print('Abandoned Rate ', AR * PW)
 print('Answered immediately', 1 - er.ErlangC(erlang, n))
-print('Erlang class', er)
-
