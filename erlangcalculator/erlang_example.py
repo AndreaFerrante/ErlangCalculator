@@ -1,6 +1,3 @@
-#import sys
-#sys.path.append(".")
-
 from erlangcalculator.erlang import Erlang
 
 
@@ -33,8 +30,3 @@ def erlang_example_printer():
 	print('Abandoned Rate ', AR * PW)
 	print('Answered immediately', 1 - er.ErlangC(erlang, n))
 	print('---------------------------------------------------------')
-
-
-
-
-
