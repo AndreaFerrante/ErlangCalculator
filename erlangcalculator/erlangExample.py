@@ -1,4 +1,4 @@
-from erlangcalculator.erlang import Erlang
+from erlangcalculator.erlangClass import Erlang
 
 
 def erlang_example_printer():

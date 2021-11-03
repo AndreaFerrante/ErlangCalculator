@@ -1,6 +1,6 @@
-from erlangcalculator.erlang import Erlang
+from erlangcalculator.erlangClass import Erlang
 
-from erlangcalculator.erlang_example import (
+from erlangcalculator.erlangExample import (
 	erlang_example_printer
 )
 
